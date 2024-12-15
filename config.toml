@@ -1,5 +1,4 @@
 baseURL = "https://bestkoreanfiction.github.io/"
-googleAnalytics = "G-E8MZBP8BRF"
 languageCode = 'en-us'
 title = 'Korean Fiction'
 canonifyURLS = true
