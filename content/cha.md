@@ -3,7 +3,7 @@ title: "If I Had Your Face"
 author: "Frances Cha"
 cover: "/images/cha.png"
 genre: "Literary Fiction, Contemporary Fiction, Social Commentary"
-description: "A gripping exploration of four women navigating South Korea's fiercely competitive, beauty-obsessed culture, where appearance and societal status dictate their lives."
+description: "Four women navigating South Korea's fiercely competitive, beauty-obsessed culture, where appearance and societal status dictate their lives."
 draft: false
 ---
 
