@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/almond/</loc>
+    <loc>https://bestkoreanfiction.github.io/almond/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://bestkoreanfiction.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cha/</loc>
+    <loc>https://bestkoreanfiction.github.io/cha/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://bestkoreanfiction.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/lee/</loc>
+    <loc>https://bestkoreanfiction.github.io/lee/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://bestkoreanfiction.github.io/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/vegetarian/</loc>
+    <loc>https://bestkoreanfiction.github.io/vegetarian/</loc>
   </url><url>
-    <loc>http://localhost:1313/white/</loc>
+    <loc>https://bestkoreanfiction.github.io/white/</loc>
   </url>
 </urlset>
