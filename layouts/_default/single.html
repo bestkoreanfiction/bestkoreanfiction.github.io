@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/" class="page-permalink">{{ .Site.Title }}</a></h1>
+    </header>
+
+    <article class="book-detail">
+        <div class="book-container">
+            <div class="book-image">
+                <img src="{{ .Params.cover }}" alt="{{ .Title }} Cover">
+            </div>
+            <div class="book-info">
+                <h1>{{ .Title }}</h1>
+                <p><strong>Genre:</strong> {{ .Params.genre }}</p>
+                <p><strong>Author:</strong> {{ .Params.author }}</p>
+                <p><strong>Description:</strong></p>
+                <p>{{ .Params.description }}</p>
+                <div class="book-content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="/" class="back-link">← Back to Book List</a>
+        </div>
+    </article>
+
+    <footer>
+        <p>Powered by Hugo</p>
+    </footer>
+</body>
+</html>
+

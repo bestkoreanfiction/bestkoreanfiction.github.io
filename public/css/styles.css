@@ -1,0 +1,215 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+    padding: 4rem 0;
+    background: url('/images/header-backdrop.png') no-repeat center center / cover; /* Set the background image */
+    color: white;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #005fa3;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(173, 216, 230, 0.8); /* Light blue overlay */
+    z-index: 0;
+}
+
+header h1 {
+    position: relative;
+    font-size: 2.5rem;
+    z-index: 1;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Back Link */
+.back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Book Grid */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-card p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Book Detail Page */
+.book-detail {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Two-column Layout for Book Detail */
+.book-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+/* Left Column: Book Image */
+.book-image {
+    flex: 0 0 200px; /* Fixed width for the image column */
+}
+
+.book-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Column: Book Information */
+.book-info {
+    flex: 1; /* Fills remaining space */
+    min-width: 300px;
+    text-align: left; /* Align text to the left */
+    padding: 0 1rem; /* Add some padding for spacing */
+}
+
+.book-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.book-info p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: #555;
+}
+
+.book-content {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.back-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #0077cc;
+    color: white;
+    border-top: 3px solid #005fa3;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Responsive Design for Book Detail Page */
+@media (max-width: 600px) {
+    .book-container {
+        flex-direction: column; /* Stack the columns vertically */
+        align-items: center;
+    }
+
+    .book-info {
+        padding: 0; /* Remove padding for smaller screens */
+    }
+}
+
+.page-permalink {
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s ease-in-out;
+}
+
+.page-permalink:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+.page-permalink {
+    text-decoration: none;
+    color: #0056b3; /* Dark blue */
+    transition: color 0.3s ease-in-out;
+}
+
+.page-permalink:hover {
+    color: #003366; /* Navy blue */
+    text-decoration: underline;
+}

@@ -1,0 +1,6 @@
+baseURL = "https://bestkoreanfiction.github.io/"
+languageCode = 'en-us'
+title = 'Korean Fiction'
+canonifyURLS = true
+relativeURLS = true
+
